@@ -1,0 +1,15 @@
+{
+  "name": "hompage",
+  "version": "1.0.0",
+  "description": "A portfolio project",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "sarah enobabor",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
