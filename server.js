@@ -37,7 +37,7 @@ if(request.url === '/about.html'){
     }
 })
 
-const port = 7500
+const port = 5500
 
 server.listen(port, () => {
     console.log(`succesfuly logged into ${port}`);
