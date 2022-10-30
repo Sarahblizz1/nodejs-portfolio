@@ -27,6 +27,14 @@ if(request.url === '/about.html'){
                 response.end(content)
             })
     }
+
+    if(request.url === '/home.html'){
+        let filePath = path.join(__dirname, 'portfolio', 'home.html');
+        fs.readFile(filePath, 'utf8', (err, content) => {
+                response.writeHead(200, {'Content-Type': 'text/html'});
+                response.end(content)
+            })
+    }
 })
 
 const port = 7500
